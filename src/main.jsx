@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import DataFetchProvider from "./componentes/DataFetchContext";
+import DataContextProvider from "./componentes/DataContext";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <DataFetchProvider>
+  <DataContextProvider>
     <App />
-  </DataFetchProvider>
+  </DataContextProvider>
 );
